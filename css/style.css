@@ -1,0 +1,33 @@
+.body {
+  background-color: rgb(37, 34, 34);
+}
+
+
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
+  gap: 15px;
+  list-style-type: none;
+}
+.image-item {
+  margin: 0 auto;
+  background-color: none;
+  transition-duration: 2s;
+}
+.image {
+  border-color: blanchedalmond;
+  border-radius: 2px;
+  border: 3px solid #405f52;
+}
+.image:hover {
+  border-radius: 2px;
+}
+.image-item:hover {
+  -webkit-box-shadow: -1px 0px 33px 0px rgba(148, 208, 208, 1);
+  -moz-box-shadow: -1px 0px 33px 0px rgba(148, 208, 208, 1);
+  box-shadow: -1px 0px 33px 0px rgba(148, 208, 208, 1);
+  transform: scale(1.03);
+}
+
